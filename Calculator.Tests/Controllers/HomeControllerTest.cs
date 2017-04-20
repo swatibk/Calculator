@@ -20,6 +20,15 @@ namespace Calculator.Tests.Controllers
             ViewResult result = controller.CheckCountValue(count) as ViewResult;
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void CheckCountValueTestTwo()
+        {
+            int count = 4;
+            HomeController controller = new HomeController();
+            ViewResult result = controller.CheckCountValue(count) as ViewResult;
+            Assert.IsNotNull(result);
+        }
         [TestMethod]
         public void Index()
         {
