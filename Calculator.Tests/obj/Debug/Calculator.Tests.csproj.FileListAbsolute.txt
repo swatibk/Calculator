@@ -42,3 +42,5 @@ F:\IntelProjects\Swati\Calculator\Calculator.Tests\bin\Debug\Microsoft.Owin.Secu
 F:\IntelProjects\Swati\Calculator\Calculator.Tests\obj\Debug\Calculator.Tests.csprojResolveAssemblyReference.cache
 F:\IntelProjects\Swati\Calculator\Calculator.Tests\obj\Debug\Calculator.Tests.dll
 F:\IntelProjects\Swati\Calculator\Calculator.Tests\obj\Debug\Calculator.Tests.pdb
+F:\Jenkins\Calculator\Calculator.Tests\obj\Debug\Calculator.Tests.dll
+F:\Jenkins\Calculator\Calculator.Tests\obj\Debug\Calculator.Tests.pdb
