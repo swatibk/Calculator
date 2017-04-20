@@ -15,7 +15,7 @@ namespace Calculator.Tests.Controllers
         [TestMethod]
         public void CheckCountValueTest()
         {
-            int count = 400;
+            int count = 21;
             HomeController controller = new HomeController();
             ViewResult result = controller.CheckCountValue(count) as ViewResult;
             Assert.IsNotNull(result);
