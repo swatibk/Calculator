@@ -13,6 +13,14 @@ namespace Calculator.Tests.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
+        public void CheckCountValueTest()
+        {
+            int count = 400;
+            HomeController controller = new HomeController();
+            ViewResult result = controller.CheckCountValue(count) as ViewResult;
+            Assert.IsNotNull(result);
+        }
+        [TestMethod]
         public void Index()
         {
             // Arrange
